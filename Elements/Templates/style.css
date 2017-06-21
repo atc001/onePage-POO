@@ -1,0 +1,30 @@
+body {
+    margin: 0;    
+}
+
+#menu {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.alternate-color:nth-of-type(odd) {
+    background-color: grey;
+}
+
+.alternate-color h1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,0 +1,9 @@
+.flexbox-half {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-half div {
+    width: 50%;
+}
